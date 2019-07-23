@@ -48,8 +48,9 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 100px;
+  font-weight: 700;
 }
 
 .images {
@@ -72,6 +73,7 @@ section {
   height: 100%;
 }
 
+/* Creates a smooth transition between the top img and the next section */
 .blur {
   width: 120%;
   margin-left: -10%;
@@ -106,7 +108,8 @@ li {
 .content {
   height: 100%;
   width: 100%;
-  background-color: #030000;
+  /* background-color: #030000; */
+  background-image: linear-gradient(to bottom, #030000 0%, #434343 100%);
   z-index: 0;
   top: 100%;
   position: absolute;
