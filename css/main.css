@@ -75,7 +75,7 @@ section {
 
 /* Creates a smooth transition between the top img and the next section */
 .blur {
-  width: 120%;
+  width: 100%;
   margin-left: -10%;
   height: 250px;
   background-color: #030000;
