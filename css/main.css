@@ -108,8 +108,7 @@ li {
 .content {
   height: 100%;
   width: 100%;
-  /* background-color: #030000; */
-  background-image: linear-gradient(to bottom, #030000 0%, #434343 100%);
+  background-color: #030000;
   z-index: 0;
   top: 100%;
   position: absolute;
